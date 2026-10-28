@@ -38,6 +38,7 @@ public class CameraConfigurator : MonoBehaviour
             Debug.Log(nearClipPlane);
             Debug.Log(farClipPlane);
         }
+        updateGUIElements();
     }
     public void OnDrawGizmos()
     {
