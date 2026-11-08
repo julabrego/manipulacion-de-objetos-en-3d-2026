@@ -8,7 +8,7 @@ public class StrengthBarBehavior : MonoBehaviour
 
     void Start()
     {
-        barSprite = gameObject.transform.GetChild(1).gameObject;
+        barSprite = gameObject.transform.GetChild(2).gameObject;
     }
 
     public void UpdateBarSpriteScale(float scale)
