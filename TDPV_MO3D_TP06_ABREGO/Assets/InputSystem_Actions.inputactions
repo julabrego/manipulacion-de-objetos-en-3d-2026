@@ -30,7 +30,7 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "afd063ca-0f10-45e8-8bf8-92896f35ec1a",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true,
@@ -61,26 +61,59 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "af7ad7e3-181d-4d2d-a633-36a3195e2cb1",
+                    "name": "2D Vector",
+                    "id": "0ae0b09e-4de7-4b08-b1ac-e7f44180cf08",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "4c56472e-c6be-4143-a9f3-9ec097260138",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "45c042da-5dd8-4d20-855d-17cd68b3a40a",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "898dacea-7c2a-43da-898e-189c6ae40c89",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Move",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "974f5e6c-00c2-401f-8c06-a51b23ef2e67",
+                    "name": "right",
+                    "id": "0d89d985-57e8-4085-928f-f371e3de0733",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Move",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 }
             ]
         },

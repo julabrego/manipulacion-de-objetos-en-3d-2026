@@ -41,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         float dirX = moveAction.ReadValue<Vector2>().x;
+        Debug.Log(moveAction.ReadValue<Vector2>());
         rb.linearVelocity = new Vector3(dirX * moveSpeed, rb.linearVelocity.y, 0f);
 
         if (!shooted)
